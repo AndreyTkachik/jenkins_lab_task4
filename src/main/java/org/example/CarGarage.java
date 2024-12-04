@@ -107,9 +107,9 @@ public class CarGarage implements Garage {
         }
         carsById.putIfAbsent(car.getCarId(), car);
         ownerById.putIfAbsent(owner.getOwnerId(), owner);
-        carsByOwner.computeIfAbsent(owner.getOwnerId(), _ -> new HashSet<>()).add(car);
+        carsByOwner.computeIfAbsent(owner.getOwnerId(), k -> new HashSet<>()).add(car);
         carsByOwner.get(car.getOwnerId()).add(car);
-        carsByBrand.computeIfAbsent(car.getBrand(), _ -> new HashSet<>()).add(car);
+        carsByBrand.computeIfAbsent(car.getBrand(), k -> new HashSet<>()).add(car);
         carsByBrand.get(car.getBrand()).add(car);
         carsSortedByVelocity.add(car);
         carsSortedByPower.add(car);
