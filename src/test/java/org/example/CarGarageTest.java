@@ -3,12 +3,14 @@ package org.example;
 import java.util.*;
 
 import org.testng.annotations.Test;
+import org.junit.jupiter.api.*;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CarGarageTest {
 
+    @org.junit.jupiter.api.Test
     @Test
     void TestAllCarsUniqueOwnersTest() {
         CarGarage carGarage = new CarGarage();
@@ -23,6 +25,7 @@ class CarGarageTest {
         assertThat(temp).containsExactlyInAnyOrderElementsOf(owners);
     }
 
+    @org.junit.jupiter.api.Test
     @Test
     void TestTopThreeCarsByMaxVelocityTest() {
         CarGarage carGarage = new CarGarage();
@@ -38,6 +41,7 @@ class CarGarageTest {
         assertThat(carGarage.topThreeCarsByMaxVelocity()).containsExactlyInAnyOrderElementsOf(cars);
     }
 
+    @org.junit.jupiter.api.Test
     @Test
     void TestAllCarsOfBrandTest() {
         CarGarage carGarage = new CarGarage();
@@ -53,6 +57,7 @@ class CarGarageTest {
         assertThat(temp).containsExactlyInAnyOrderElementsOf(cars);
     }
 
+    @org.junit.jupiter.api.Test
     @Test
     void TestCarsWithPowerMoreThanTest() {
         Collection<Car> cars = new HashSet<>();
@@ -68,6 +73,7 @@ class CarGarageTest {
         assertThat(temp).containsExactlyInAnyOrderElementsOf(cars);
     }
 
+    @org.junit.jupiter.api.Test
     @Test
     void TestAllCarsOfOwnerTest() {
         CarGarage carGarage = new CarGarage();
@@ -83,6 +89,7 @@ class CarGarageTest {
         assertThat(temp).containsExactlyInAnyOrderElementsOf(cars);
     }
 
+    @org.junit.jupiter.api.Test
     @Test
     void TestMeanOwnersAgeOfCarBrandTest() {
         CarGarage carGarage = new CarGarage();
@@ -95,6 +102,7 @@ class CarGarageTest {
         assertEquals(carGarage.meanOwnersAgeOfCarBrand("dfsfA"), 14);
     }
 
+    @org.junit.jupiter.api.Test
     @Test
     void TestMeanCarNumberForEachOwnerTest() {
         CarGarage carGarage = new CarGarage();
@@ -107,6 +115,7 @@ class CarGarageTest {
         assertEquals(carGarage.meanCarNumberForEachOwner() ,1);
     }
 
+    @org.junit.jupiter.api.Test
     @Test
     void TestRemoveCarTest() {
         CarGarage carGarage = new CarGarage();
@@ -119,6 +128,7 @@ class CarGarageTest {
         assertEquals(carGarage.removeCar(222), tmp_car);
     }
 
+    @org.junit.jupiter.api.Test
     @Test
     void TestAddNewCarTest() {
         CarGarage carGarage1 = new CarGarage();

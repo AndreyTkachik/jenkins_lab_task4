@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.CarGarageTest" time="0.926" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.CarGarageTest" time="1.14" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\Incri\AppData\Local\Temp\surefire11523554606784440651\surefirebooter17930898032917238220.jar C:\Users\Incri\AppData\Local\Temp\surefire11523554606784440651 2024-12-05T17-15-41_987-jvmRun1 surefire491389899542282267tmp surefire_01686069094089341623tmp"/>
+    <property name="sun.java.command" value="C:\Users\Incri\AppData\Local\Temp\surefire15680381653345194955\surefirebooter18081576959354100269.jar C:\Users\Incri\AppData\Local\Temp\surefire15680381653345194955 2024-12-06T00-30-27_028-jvmRun1 surefire13115503216295686695tmp surefire_01070726829611734271tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Incri\OneDrive\Рабочий стол\jenkins_lab_task4\target\test-classes;C:\Users\Incri\OneDrive\Рабочий стол\jenkins_lab_task4\target\classes;C:\Users\Incri\.m2\repository\org\assertj\assertj-core\3.26.3\assertj-core-3.26.3.jar;C:\Users\Incri\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;C:\Users\Incri\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.3\junit-jupiter-5.11.3.jar;C:\Users\Incri\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.3\junit-jupiter-api-5.11.3.jar;C:\Users\Incri\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Incri\.m2\repository\org\junit\platform\junit-platform-commons\1.11.3\junit-platform-commons-1.11.3.jar;C:\Users\Incri\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Incri\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.3\junit-jupiter-params-5.11.3.jar;C:\Users\Incri\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.3\junit-jupiter-engine-5.11.3.jar;C:\Users\Incri\.m2\repository\org\junit\platform\junit-platform-engine\1.11.3\junit-platform-engine-1.11.3.jar;C:\Users\Incri\.m2\repository\io\qameta\allure\allure-junit5\2.22.2\allure-junit5-2.22.2.jar;C:\Users\Incri\.m2\repository\io\qameta\allure\allure-junit-platform\2.22.2\allure-junit-platform-2.22.2.jar;C:\Users\Incri\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;C:\Users\Incri\.m2\repository\io\qameta\allure\allure-testng\2.22.2\allure-testng-2.22.2.jar;C:\Users\Incri\.m2\repository\io\qameta\allure\allure-java-commons\2.22.2\allure-java-commons-2.22.2.jar;C:\Users\Incri\.m2\repository\io\qameta\allure\allure-model\2.22.2\allure-model-2.22.2.jar;C:\Users\Incri\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Incri\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Incri\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Incri\.m2\repository\io\qameta\allure\allure-test-filter\2.22.2\allure-test-filter-2.22.2.jar;C:\Users\Incri\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Incri\.m2\repository\ch\qos\logback\logback-classic\1.2.6\logback-classic-1.2.6.jar;C:\Users\Incri\.m2\repository\ch\qos\logback\logback-core\1.2.6\logback-core-1.2.6.jar;"/>
     <property name="allure.results.directory" value="C:\Users\Incri\OneDrive\Рабочий стол\jenkins_lab_task4\target/allure-results"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Incri\AppData\Local\Temp\surefire11523554606784440651\surefirebooter17930898032917238220.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Incri\AppData\Local\Temp\surefire15680381653345194955\surefirebooter18081576959354100269.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.1+11-39"/>
@@ -59,13 +59,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="TestAddNewCarTest" classname="org.example.CarGarageTest" time="0.171"/>
-  <testcase name="TestAllCarsOfBrandTest" classname="org.example.CarGarageTest" time="0.002"/>
-  <testcase name="TestAllCarsOfOwnerTest" classname="org.example.CarGarageTest" time="0.001"/>
+  <testcase name="TestAddNewCarTest" classname="org.example.CarGarageTest" time="0.189"/>
+  <testcase name="TestAllCarsOfBrandTest" classname="org.example.CarGarageTest" time="0.001"/>
+  <testcase name="TestAllCarsOfOwnerTest" classname="org.example.CarGarageTest" time="0.002"/>
   <testcase name="TestAllCarsUniqueOwnersTest" classname="org.example.CarGarageTest" time="0.002"/>
   <testcase name="TestCarsWithPowerMoreThanTest" classname="org.example.CarGarageTest" time="0.006"/>
-  <testcase name="TestMeanCarNumberForEachOwnerTest" classname="org.example.CarGarageTest" time="0.005"/>
+  <testcase name="TestMeanCarNumberForEachOwnerTest" classname="org.example.CarGarageTest" time="0.007"/>
   <testcase name="TestMeanOwnersAgeOfCarBrandTest" classname="org.example.CarGarageTest" time="0.002"/>
   <testcase name="TestRemoveCarTest" classname="org.example.CarGarageTest" time="0.003"/>
-  <testcase name="TestTopThreeCarsByMaxVelocityTest" classname="org.example.CarGarageTest" time="0.001"/>
+  <testcase name="TestTopThreeCarsByMaxVelocityTest" classname="org.example.CarGarageTest" time="0.002"/>
 </testsuite>
