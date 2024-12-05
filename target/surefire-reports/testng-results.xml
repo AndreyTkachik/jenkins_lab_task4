@@ -1,11 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-05T13:25:44Z" name="Surefire suite" finished-at="2024-12-05T13:25:44Z" duration-ms="14">
+  <suite started-at="2024-12-05T14:15:43Z" name="Surefire suite" finished-at="2024-12-05T14:15:43Z" duration-ms="309">
     <groups>
     </groups>
-    <test started-at="2024-12-05T13:25:44Z" name="Surefire test" finished-at="2024-12-05T13:25:44Z" duration-ms="14">
+    <test started-at="2024-12-05T14:15:43Z" name="Surefire test" finished-at="2024-12-05T14:15:43Z" duration-ms="309">
+      <class name="org.example.CarGarageTest">
+        <test-method signature="TestAddNewCarTest()[pri:0, instance:org.example.CarGarageTest@2e5ee2c9]" started-at="2024-12-05T14:15:43Z" name="TestAddNewCarTest" finished-at="2024-12-05T14:15:43Z" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddNewCarTest -->
+        <test-method signature="TestAllCarsOfBrandTest()[pri:0, instance:org.example.CarGarageTest@2e5ee2c9]" started-at="2024-12-05T14:15:43Z" name="TestAllCarsOfBrandTest" finished-at="2024-12-05T14:15:43Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAllCarsOfBrandTest -->
+        <test-method signature="TestAllCarsOfOwnerTest()[pri:0, instance:org.example.CarGarageTest@2e5ee2c9]" started-at="2024-12-05T14:15:43Z" name="TestAllCarsOfOwnerTest" finished-at="2024-12-05T14:15:43Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAllCarsOfOwnerTest -->
+        <test-method signature="TestAllCarsUniqueOwnersTest()[pri:0, instance:org.example.CarGarageTest@2e5ee2c9]" started-at="2024-12-05T14:15:43Z" name="TestAllCarsUniqueOwnersTest" finished-at="2024-12-05T14:15:43Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAllCarsUniqueOwnersTest -->
+        <test-method signature="TestCarsWithPowerMoreThanTest()[pri:0, instance:org.example.CarGarageTest@2e5ee2c9]" started-at="2024-12-05T14:15:43Z" name="TestCarsWithPowerMoreThanTest" finished-at="2024-12-05T14:15:43Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCarsWithPowerMoreThanTest -->
+        <test-method signature="TestMeanCarNumberForEachOwnerTest()[pri:0, instance:org.example.CarGarageTest@2e5ee2c9]" started-at="2024-12-05T14:15:43Z" name="TestMeanCarNumberForEachOwnerTest" finished-at="2024-12-05T14:15:43Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMeanCarNumberForEachOwnerTest -->
+        <test-method signature="TestMeanOwnersAgeOfCarBrandTest()[pri:0, instance:org.example.CarGarageTest@2e5ee2c9]" started-at="2024-12-05T14:15:43Z" name="TestMeanOwnersAgeOfCarBrandTest" finished-at="2024-12-05T14:15:43Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMeanOwnersAgeOfCarBrandTest -->
+        <test-method signature="TestRemoveCarTest()[pri:0, instance:org.example.CarGarageTest@2e5ee2c9]" started-at="2024-12-05T14:15:43Z" name="TestRemoveCarTest" finished-at="2024-12-05T14:15:43Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestRemoveCarTest -->
+        <test-method signature="TestTopThreeCarsByMaxVelocityTest()[pri:0, instance:org.example.CarGarageTest@2e5ee2c9]" started-at="2024-12-05T14:15:43Z" name="TestTopThreeCarsByMaxVelocityTest" finished-at="2024-12-05T14:15:43Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTopThreeCarsByMaxVelocityTest -->
+      </class> <!-- org.example.CarGarageTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

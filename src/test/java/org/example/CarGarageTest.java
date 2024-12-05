@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.*;
 
-import org.junit.jupiter.api.*;
+import org.testng.annotations.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class CarGarageTest {
 
     @Test
-    void allCarsUniqueOwners() {
+    void TestAllCarsUniqueOwnersTest() {
         CarGarage carGarage = new CarGarage();
         Collection<Owner> owners = new HashSet<>();
         Car tmp_car = new Car(1,"A", "A", 1, 1, 1);
@@ -24,7 +24,7 @@ class CarGarageTest {
     }
 
     @Test
-    void topThreeCarsByMaxVelocity() {
+    void TestTopThreeCarsByMaxVelocityTest() {
         CarGarage carGarage = new CarGarage();
         Collection<Car> cars = new ArrayList<>();
         Car tmp_car = new Car(1,"A", "A", 1, 1, 1);
@@ -39,7 +39,7 @@ class CarGarageTest {
     }
 
     @Test
-    void allCarsOfBrand() {
+    void TestAllCarsOfBrandTest() {
         CarGarage carGarage = new CarGarage();
         Collection<Car> cars = new HashSet<>();
         Car tmp_car = new Car(1,"A", "A", 1, 1, 1);
@@ -54,7 +54,7 @@ class CarGarageTest {
     }
 
     @Test
-    void carsWithPowerMoreThan() {
+    void TestCarsWithPowerMoreThanTest() {
         Collection<Car> cars = new HashSet<>();
         CarGarage carGarage = new CarGarage();
         Car tmp_car = new Car(1,"A", "A", 1, 1, 1);
@@ -69,7 +69,7 @@ class CarGarageTest {
     }
 
     @Test
-    void allCarsOfOwner() {
+    void TestAllCarsOfOwnerTest() {
         CarGarage carGarage = new CarGarage();
         Collection<Car> cars = new HashSet<>();
         Car tmp_car = new Car(1,"A", "A", 1, 1, 1);
@@ -84,7 +84,7 @@ class CarGarageTest {
     }
 
     @Test
-    void meanOwnersAgeOfCarBrand() {
+    void TestMeanOwnersAgeOfCarBrandTest() {
         CarGarage carGarage = new CarGarage();
         Car tmp_car = new Car(1,"A", "A", 1, 1, 1);
         Owner tmp_owner = new Owner("A", "A", 14, 1);
@@ -96,7 +96,7 @@ class CarGarageTest {
     }
 
     @Test
-    void meanCarNumberForEachOwner() {
+    void TestMeanCarNumberForEachOwnerTest() {
         CarGarage carGarage = new CarGarage();
         Car tmp_car = new Car(1,"A", "A", 1, 1, 1);
         Owner tmp_owner = new Owner("A", "A", 1, 1);
@@ -108,7 +108,7 @@ class CarGarageTest {
     }
 
     @Test
-    void removeCar() {
+    void TestRemoveCarTest() {
         CarGarage carGarage = new CarGarage();
         Car tmp_car = new Car(1,"A", "A", 1, 1, 1);
         Owner tmp_owner = new Owner("A", "A", 1, 1);
@@ -120,7 +120,7 @@ class CarGarageTest {
     }
 
     @Test
-    void addNewCar() {
+    void TestAddNewCarTest() {
         CarGarage carGarage1 = new CarGarage();
         CarGarage carGarage2 = new CarGarage();
         Car tmp_car = new Car(1,"A", "A", 1, 1, 1);
